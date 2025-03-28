@@ -90,5 +90,5 @@ collection.update_one(
     {"$set": doc},
     upsert=True
 )
-print("\n✅ Sync complete! Data pushed to MongoDB Atlas.")
+print("\nSync complete! Data pushed to MongoDB Atlas.")
 ```
